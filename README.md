@@ -2,6 +2,7 @@
 
 Enterprise network simulation using Cisco Packet Tracer with VLAN segmentation, Router-on-a-Stick inter-VLAN routing, and shared network resources.
 
+![Network Topology](topology.png)
 ## 🗺️ Network Topology Overview
 * **Inter-VLAN Routing:** Router-on-a-Stick (ROAS) architecture using subinterfaces to route traffic between isolated networks.
 * **VLAN Segmentation:** Distinct broadcast domains created via VLAN 10 (Administration) and VLAN 20 (IT) for security.
