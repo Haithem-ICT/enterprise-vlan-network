@@ -14,6 +14,8 @@ Enterprise network simulation using Cisco Packet Tracer with VLAN segmentation, 
 * **Network Troubleshooting:** Diagnosed and resolved standard configuration anomalies, including port range gaps and Spanning Tree (STP) native VLAN mismatches.
 
 ## 🚀 Verification Testing
-All implementations were verified via command line ping testing:
-* Confirmed local PCs can reach their default gateway.
-* Successfully validated cross-VLAN communication between the Administration and IT departments with 0% packet loss.
+All implementations were verified via command-line ping testing to ensure full connectivity across the network fabric:
+* **Intra-VLAN Connectivity:** Administration PCs successfully communicate within VLAN 10.
+* **Intra-VLAN Connectivity:** IT PCs successfully communicate within VLAN 20.
+* **Inter-VLAN Routing:** Cross-department communication between VLAN 10 and VLAN 20 is fully functional via Router-on-a-Stick.
+* **Shared Resource Access:** Both departments can successfully reach and utilize the shared network printer on port Fa0/6.
